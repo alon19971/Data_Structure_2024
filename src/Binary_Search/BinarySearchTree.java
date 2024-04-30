@@ -1,4 +1,4 @@
-package Binary_Tree_Algo;
+package Binary_Search;
 
 public class BinarySearchTree {
 
