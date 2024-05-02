@@ -20,6 +20,7 @@ public class Queue_theory {
 
         Queue<String> queue = new LinkedList<String>();
 
+
         queue.offer("Karen");
         queue.offer("Chad");
         queue.offer("Steve");
