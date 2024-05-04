@@ -9,6 +9,7 @@ public class Shipping_03 {
         this.items = items;
     }
 
+    // Returns the sum of the items to be shipped
     public double sum(){
         double sum = 0;
         for (Shippable item : items){
