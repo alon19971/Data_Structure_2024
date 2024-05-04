@@ -15,7 +15,7 @@ public class Question_02 {
 
         // Insert elements into the queue
         // Offer is preferred over 'add()' for Queue operations
-        // because it does not throw exceptions when the capacity is restricted
+        // because it does not throw exceptions when the capacity is restricted.
         // Good practice for code that might later switch to a capacity-restricted Queue.
 
         queue.offer(2); // Rear - first to be removed
@@ -38,8 +38,8 @@ public class Question_02 {
 
     }
 
-    // Function that receives Queue of Integers
-    // the values in the Queue are not sorted and can be appeared several times
+    // Function that receives Queue of Integers.
+    // the values in the Queue are not sorted and can be appeared several times.
     // the function will return a new Queue that includes
     // only the values that appears more than twice
 
@@ -64,7 +64,7 @@ public class Question_02 {
             }
 
             // If element occurs more than twice and is not already in resultQueue
-            // add to result Queue
+            // add to resultQueue
             if (count > 2 && !resultQueue.contains(element)) {
                 resultQueue.offer(element);
             }

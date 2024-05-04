@@ -12,7 +12,7 @@ public class Store_01 {
     // Function that receives a tablet and add it to the store
     // checks a few conditions to ensure logical handling
     public boolean addTablet(Tablet_01 tab) {
-        // for loop that traverse upon the tablets array
+        // FOR-loop that traverse upon the tablets array
         for (int i = 0; i < tablet01s.length; i++) {
             // as long as the value is not null -
             if (tablet01s[i] != null) {
@@ -39,7 +39,7 @@ public class Store_01 {
     // the function will return number of free places in the store
     public int sortStore() {
         int winIndex = 0;
-        int andIndex = 0;
+        int androIndex = 0;
         int iosIndex = 0;
         int freeSpaces = 0;
 
@@ -54,10 +54,10 @@ public class Store_01 {
                         sortedTablet01s[winIndex++] = tablet01;
                         break;
                     case 'A':
-                        sortedTablet01s[winIndex + (andIndex++)] = tablet01;
+                        sortedTablet01s[winIndex + (androIndex++)] = tablet01;
                         break;
                     case 'I':
-                        sortedTablet01s[winIndex + andIndex + (iosIndex++)] = tablet01;
+                        sortedTablet01s[winIndex + androIndex + (iosIndex++)] = tablet01;
                         break;
                 }
             } else {
