@@ -34,9 +34,10 @@ public class Store_01 {
         return false;
     }
 
-    // The function sorts the tablets by their operating systems
-    // initially will be the 'Windows' than 'Android' than 'ios'
-    // the function will return number of free places in the store
+
+    // The function sorts the tablets by their operating systems.
+    // initially will be the 'Windows' than 'Android' than 'ios'.
+    // the function will return number of free places in the store.
     public int sortStore() {
         int winIndex = 0;
         int androIndex = 0;

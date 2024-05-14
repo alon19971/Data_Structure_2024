@@ -6,15 +6,15 @@ import java.util.Queue;
 public class Question_02 {
     public static void main(String[] args) {
 
-        // LinkedList class, implement Queue interface class
+        // LinkedList class, implement Queue interface class.
         // The generic representation of the Queue interface is:
         // public interface Queue<T> extends Collection<T>
 
         // Create a Queue using LinkedList
         Queue<Integer> queue = new LinkedList<>();
 
-        // Insert elements into the queue
-        // Offer is preferred over 'add()' for Queue operations
+        // Insert elements into the queue.
+        // Offer is preferred over 'add()' for Queue operations,
         // because it does not throw exceptions when the capacity is restricted.
         // Good practice for code that might later switch to a capacity-restricted Queue.
 
@@ -50,7 +50,7 @@ public class Question_02 {
         // LinkedList Allows us to use methods which are crucial for this implementation.
         // LL is chosen because it provides efficient removals and insertions.
         LinkedList<Integer> tempList = new LinkedList<>(q);     // LinkedList that gets the Queue 'q'
-        Queue<Integer> resultQueue = new LinkedList<Integer>(); // empty Queue for storage later
+        Queue<Integer> resultQueue = new LinkedList<Integer>(); // empty Queue for storage later and return.
 
         while (!tempList.isEmpty()) {
             int element = tempList.getFirst();
